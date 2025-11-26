@@ -14,8 +14,7 @@ router.post("/add", async (req, res) => {
 })
 
 router.put("/:id/update", async(req, res) => {
-    const {name, ratePerMeter, ratePerUnit} = req.body;
-    const id = req.params.id;
+    const {id,name, ratePerMeter, ratePerUnit} = req.body;
     if(!id){
         return res.status(400).json({message:"no design found"})
     }
