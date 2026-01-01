@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "start": "node --loader tsx Server.ts",
+    "start": "npx tsx Server.ts",
     "dev": "nodemon --exec tsx Server.ts"
   },
   "keywords": [],
@@ -30,7 +30,7 @@
     "@types/node": "^24.10.1",
     "nodemon": "^3.1.11",
     "ts-node": "^10.9.2",
-    "tsx": "^4.20.6",
+    "tsx": "^4.21.0",
     "typescript": "^5.9.3"
   }
 }
