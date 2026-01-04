@@ -9,7 +9,7 @@
     "clean": "rimraf dist",
     "build": "npm run clean && tsc",
     "start": "npx tsx Server.ts",
-    "dev": "nodemon --exec tsx Server.ts"
+     "dev": "nodemon --exec tsx Server.ts"
   },
   "keywords": [],
   "author": "",
