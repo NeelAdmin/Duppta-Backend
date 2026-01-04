@@ -1,7 +1,7 @@
 import express from "express"
-import { registerUser, loginUser } from "../Controller/User.controller.ts";
-import { verifyJWT } from "../Middleware/Auth.middleware.ts";
-import UserModel from "../Model/User.model.ts";
+import { registerUser, loginUser } from "../Controller/User.controller.js";
+import { verifyJWT } from "../Middleware/Auth.middleware.js";
+import UserModel from "../Model/User.model.js";
 const router = express.Router()
 
 

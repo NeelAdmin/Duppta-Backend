@@ -1,6 +1,6 @@
 import express from "express";
-import { verifyJWT } from "../Middleware/Auth.middleware.ts";
-import { getStock, addStock, updateStock, deleteStock, getAssignedStock } from "../Controller/Stock.controller.ts";
+import { verifyJWT } from "../Middleware/Auth.middleware.js";
+import { getStock, addStock, updateStock, deleteStock, getAssignedStock } from "../Controller/Stock.controller.js";
 const router = express.Router();
 router.get("/get", verifyJWT, getStock);
 router.post("/add", addStock);

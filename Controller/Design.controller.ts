@@ -1,5 +1,5 @@
 import express from "express"
-import Design from "../Model/Design.model.ts"
+import Design from "../Model/Design.model.js"
 
 const getAllDesign = async (req: express.Request, res: express.Response) => {
     try {

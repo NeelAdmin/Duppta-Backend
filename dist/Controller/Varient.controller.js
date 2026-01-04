@@ -1,4 +1,4 @@
-import Varient from "../Model/Varient.model.ts";
+import Varient from "../Model/Varient.model.js";
 const getAllVarient = async (req, res) => {
     try {
         const varient = await Varient.aggregate([

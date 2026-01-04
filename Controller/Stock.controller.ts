@@ -1,7 +1,7 @@
 import express from "express"
-import Stock from "../Model/Stock.model.ts";
-import DesignModel from "../Model/Design.model.ts";
-import UserModel from "../Model/User.model.ts";
+import Stock from "../Model/Stock.model.js";
+import DesignModel from "../Model/Design.model.js";
+import UserModel from "../Model/User.model.js";
 
 
 const getStock = async (req: express.Request, res: express.Response) => {

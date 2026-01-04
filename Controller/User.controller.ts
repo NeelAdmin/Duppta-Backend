@@ -1,5 +1,5 @@
 import express from "express"
-import UserModel  from "../Model/User.model.ts";
+import UserModel  from "../Model/User.model.js";
 import mongoose from "mongoose";
 
 

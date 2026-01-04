@@ -1,4 +1,4 @@
-import Design from "../Model/Design.model.ts";
+import Design from "../Model/Design.model.js";
 const getAllDesign = async (req, res) => {
     try {
         const design = await Design.find();

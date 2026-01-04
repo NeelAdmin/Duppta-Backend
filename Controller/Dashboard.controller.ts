@@ -1,5 +1,5 @@
 import express from "express"
-import Stock from "../Model/Stock.model.ts"
+import Stock from "../Model/Stock.model.js"
 
 const getStockAnalysis = async (req: express.Request, res: express.Response) => {
     try {

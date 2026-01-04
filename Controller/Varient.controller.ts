@@ -1,5 +1,5 @@
 import express from "express"
-import Varient from "../Model/Varient.model.ts";
+import Varient from "../Model/Varient.model.js";
 
 
 const getAllVarient = async (req: express.Request, res: express.Response) => {

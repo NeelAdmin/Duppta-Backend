@@ -2,8 +2,8 @@ import express from "express";
 import dotenv from "dotenv";
 import cors from "cors";
 dotenv.config();
-import connectDB from "./Config/dbconnect.ts";
-import router from "./Routes/index.ts";
+import connectDB from "./Config/dbconnect.js";
+import router from "./Routes/index.js";
 connectDB();
 const app = express();
 // change this to your frontend origin (or set CLIENT_URL in .env)

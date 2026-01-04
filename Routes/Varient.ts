@@ -1,5 +1,5 @@
 import express from "express";
-import { addVarient, deleteVarient, getAllVarient } from "../Controller/Varient.controller.ts";
+import { addVarient, deleteVarient, getAllVarient } from "../Controller/Varient.controller.js";
 const router = express.Router()
 
 router.get("/all", getAllVarient)

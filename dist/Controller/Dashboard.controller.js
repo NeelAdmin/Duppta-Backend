@@ -1,4 +1,4 @@
-import Stock from "../Model/Stock.model.ts";
+import Stock from "../Model/Stock.model.js";
 const getStockAnalysis = async (req, res) => {
     try {
         const { fromDate, toDate } = req.query;

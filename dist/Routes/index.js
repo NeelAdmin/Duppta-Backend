@@ -1,10 +1,10 @@
 import express from "express";
 const router = express.Router();
-import User from "../Routes/User.ts";
-import Design from "../Routes/Design.ts";
-import Varient from "../Routes/Varient.ts";
-import Stock from "../Routes/Stock.ts";
-import Dashboard from "../Routes/Dashboard.ts";
+import User from "../Routes/User.js";
+import Design from "../Routes/Design.js";
+import Varient from "../Routes/Varient.js";
+import Stock from "../Routes/Stock.js";
+import Dashboard from "../Routes/Dashboard.js";
 router.use("/auth", User);
 router.use("/design", Design);
 router.use("/varient", Varient);
