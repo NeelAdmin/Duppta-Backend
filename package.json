@@ -6,8 +6,8 @@
   "type": "module",
   "scripts": {
     "clean": "rimraf dist",
-    "build": "npm run clean && tsc",
-    "start": "node dist/Server.js",
+     "build": "tsc",
+  "start": "node dist/Server.js",
     "dev": "nodemon --exec tsx Server.ts"
   },
   "keywords": [],
@@ -29,7 +29,6 @@
     "@types/jsonwebtoken": "^9.0.10",
     "@types/node": "^24.10.4",
     "nodemon": "^3.1.11",
-    "rimraf": "^6.1.2",
     "ts-node": "^10.9.2",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3"
