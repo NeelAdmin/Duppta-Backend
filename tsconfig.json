@@ -7,21 +7,15 @@
     "strict": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "declaration": true,
-    "emitDeclarationOnly": true,
-    "allowImportingTsExtensions": true,
-    "outDir": "./dist",
+
+    "outDir": "dist",
     "rootDir": ".",
-    "baseUrl": "."
+
+    "declaration": false,
+    "noEmit": false,
+
+    "allowImportingTsExtensions": false
   },
-  "ts-node": {
-    "esm": true,
-    "experimentalSpecifierResolution": "node"
-  },
-  "include": [
-    "**/*.ts"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules", "dist"]
 }
