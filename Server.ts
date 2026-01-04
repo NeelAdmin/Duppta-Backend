@@ -37,6 +37,9 @@ app.get("/", (req, res) => {
     res.send("Hello World!--->")
 })
 
+app.get('/health', (_req, res) => {
+  res.status(200).json({ status: 'ok' });
+});
 app.use("/api",router)
 
 const PORT = process.env.PORT
