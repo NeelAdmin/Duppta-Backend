@@ -1,0 +1,13 @@
+import express from "express";
+const router = express.Router();
+import User from "../Routes/User.ts";
+import Design from "../Routes/Design.ts";
+import Varient from "../Routes/Varient.ts";
+import Stock from "../Routes/Stock.ts";
+import Dashboard from "../Routes/Dashboard.ts";
+router.use("/auth", User);
+router.use("/design", Design);
+router.use("/varient", Varient);
+router.use("/stock", Stock);
+router.use("/dashboard", Dashboard);
+export default router;
