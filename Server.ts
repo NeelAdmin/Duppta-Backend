@@ -8,10 +8,10 @@ connectDB()
 
 const app = express()
 // change this to your frontend origin (or set CLIENT_URL in .env)
-const CLIENT_URL = process.env.CLIENT_URL || "https://duppta-frontend.vercel.app";
+const CLIENT_URL = process.env.CLIENT_URL || "https://duppta-frontend.vercel.app/";
 
 // If you need multiple origins, use a whitelist array instead
-const whitelist = [CLIENT_URL, "https://duppta-frontend.vercel.app" ,"http://localhost:3000"];
+const whitelist = [CLIENT_URL, "http://localhost:3000"];
 
 app.use(
   cors({
