@@ -11,7 +11,7 @@ const app = express()
 const CLIENT_URL = "https://duppta-frontend.vercel.app";
 
 // If you need multiple origins, use a whitelist array instead
-const whitelist = ["https://duppta-frontend.vercel.app"];
+const whitelist = ["https://duppta-frontend.vercel.app", "http://localhost:5173/"];
 
 app.use(
   cors({
